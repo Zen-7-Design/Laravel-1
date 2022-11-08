@@ -9,7 +9,7 @@
     {{ $post->title }}
 </h2>
 <h5>{{ $post->author }}</h5>
-{{ $post->body }}
+<p>{{ $post->body }}</p>
 </article>
 
 <a href="/blog">Back To Posts</a>
